@@ -1,2 +1,6 @@
 # audiio_classification
-my implementation of audiio_classification with pytorch
+1. pip install -r requirements.txt
+2. запустить jupyter notebook
+3. Скачать исходные длинные аудиодорожки и поместить их в директорию  *original_data*. Если аудиодорожку уже "нарезаны" на нужную длину то пропустить этот шаг.  
+4. Использовать *Split Wav.ipynb*  чтобы сгенерировать выборку для обучения. Можно экспериментировать с длинной и количеством генерируемых файлов.  
+5. Использовать *Classification by spectrogram.ipynb*
